@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ProximityChat</string>
+    <string name="title_activity_chat_list">ChatListActivity</string>
+</resources>

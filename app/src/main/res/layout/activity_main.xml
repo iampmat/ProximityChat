@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.daniel.myapplication.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Online:"
+        android:textColor="@color/green"
+        android:id="@+id/onlineText"
+        android:layout_gravity="top"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_above="@+id/msgText"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/onlineText"
+        android:fillViewport="true"
+        >
+       <!-- <android.support.v4.widget.SwipeRefreshLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/swipeRefresh">
+            -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/chatLayout"
+            android:layout_gravity="top"
+            android:gravity="bottom"
+            >
+        </LinearLayout>
+       <!-- </android.support.v4.widget.SwipeRefreshLayout>-->
+
+    </ScrollView>
+
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine|textCapSentences"
+        android:ems="10"
+        android:id="@+id/msgText"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/msgButton"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/msgButton"
+        android:onClick="storeMessage"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        />
+
+</RelativeLayout>

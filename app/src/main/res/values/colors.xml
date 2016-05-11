@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="green">#40ff40</color>
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#0288D1</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="blue_backgrounds">#18dcec</color>
+    <color name="blue_background">#19a1e3</color>
+    <color name="facebook_blue">#48649e</color>
+    <color name="gray_background">#849d9f</color>
+    <color name="light_gray">#d0d0d0</color>
+    <color name="white">#ffffff</color>
+    <color name="transparent_divider">#00FFFFFF</color>
+    <color name="location_text_color">#999999</color>
+    <color name="time_red">#f62929</color>
+    <color name="black">#000000</color>
+    <color name="textColorPrimary">#D9ffffff</color>
+    <color name="textColorSecondary">#8Cffffff</color>
+    <color name="rsvpColor">#47ce47</color>
+</resources>
